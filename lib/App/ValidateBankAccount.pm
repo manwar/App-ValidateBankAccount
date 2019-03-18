@@ -1,6 +1,6 @@
 package App::ValidateBankAccount;
 
-$App::ValidateBankAccount::VERSION   = '0.01';
+$App::ValidateBankAccount::VERSION   = '0.02';
 $App::ValidateBankAccount::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,12 +9,11 @@ App::ValidateBankAccount - App to validate bank account number.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
 use 5.006;
-use utf8::all;
 use Data::Dumper;
 use BankAccount::Validator::UK;
 use App::ValidateBankAccount::Option;

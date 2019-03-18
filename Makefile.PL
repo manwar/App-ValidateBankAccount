@@ -25,6 +25,7 @@ WriteMakefile(
         'Moo'                        => '2.000000',
         'namespace::autoclean'       => '0.28',
         'BankAccount::Validator::UK' => '0.46',
+        'Encode::Locale'             => '1.05',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'App-ValidateBankAccount-*' },
