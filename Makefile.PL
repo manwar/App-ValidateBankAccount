@@ -21,6 +21,7 @@ WriteMakefile(
         'Capture::Tiny' => '0.28',
     },
     PREREQ_PM => {
+        'Types::Standard'            => '1.000005',
         'MooX::Options'              => '4.023',
         'Moo'                        => '2.000000',
         'namespace::autoclean'       => '0.28',

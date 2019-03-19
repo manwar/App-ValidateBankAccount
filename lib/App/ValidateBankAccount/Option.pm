@@ -1,6 +1,6 @@
 package App::ValidateBankAccount::Option;
 
-$App::ValidateBankAccount::Option::VERSION   = '0.02';
+$App::ValidateBankAccount::Option::VERSION   = '0.03';
 $App::ValidateBankAccount::Option::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ App::ValidateBankAccount::Option - Option as Moo Role for App::ValidateBankAccou
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
